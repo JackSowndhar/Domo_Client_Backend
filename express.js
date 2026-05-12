@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001'], // Allow specific origins
+    origin: ['http://localhost:3001', 'http://localhost:3001'], // Allow specific origins
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Cookie'],
     credentials: true, // Enable credentials for cookie support

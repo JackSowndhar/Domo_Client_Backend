@@ -6,40 +6,40 @@ module.exports = [
         clientId: process.env.CLIENT_ID,
         clientSecret: process.env.CLIENT_SECRET,
         embedId: process.env.EMBED_ID,
-        filters: [
-          {
-            column: 'client_company',
-            operator: 'IN',
-            values: ['Nimbus Forge'],
-          },
-        ],
-        // filters: [],
+        // filters: [
+        //   {
+        //     column: 'client_company',
+        //     operator: 'IN',
+        //     values: ['Nimbus Forge'],
+        //   },
+        // ],
+        filters: [],
       },
-      visualization2: {
-        clientId: process.env.CLIENT_ID,
-        clientSecret: process.env.CLIENT_SECRET,
-        embedId: process.env.EMBED_ID2,
-      },
-      visualization3: {
-        clientId: process.env.CLIENT_ID,
-        clientSecret: process.env.CLIENT_SECRET,
-        embedId: process.env.EMBED_ID3,
-      },
-      visualization4: {
-        clientId: process.env.CLIENT_ID,
-        clientSecret: process.env.CLIENT_SECRET,
-        embedId: process.env.EMBED_ID4,
-      },
-      visualization5: {
-        clientId: process.env.CLIENT_ID,
-        clientSecret: process.env.CLIENT_SECRET,
-        embedId: process.env.EMBED_ID5,
-      },
-      visualization6: {
-        clientId: process.env.CLIENT_ID,
-        clientSecret: process.env.CLIENT_SECRET,
-        embedId: process.env.EMBED_ID6,
-      },
+      // visualization2: {
+      //   clientId: process.env.CLIENT_ID,
+      //   clientSecret: process.env.CLIENT_SECRET,
+      //   embedId: process.env.EMBED_ID2,
+      // },
+      // visualization3: {
+      //   clientId: process.env.CLIENT_ID,
+      //   clientSecret: process.env.CLIENT_SECRET,
+      //   embedId: process.env.EMBED_ID3,
+      // },
+      // visualization4: {
+      //   clientId: process.env.CLIENT_ID,
+      //   clientSecret: process.env.CLIENT_SECRET,
+      //   embedId: process.env.EMBED_ID4,
+      // },
+      // visualization5: {
+      //   clientId: process.env.CLIENT_ID,
+      //   clientSecret: process.env.CLIENT_SECRET,
+      //   embedId: process.env.EMBED_ID5,
+      // },
+      // visualization6: {
+      //   clientId: process.env.CLIENT_ID,
+      //   clientSecret: process.env.CLIENT_SECRET,
+      //   embedId: process.env.EMBED_ID6,
+      // },
     },
   },
   {
